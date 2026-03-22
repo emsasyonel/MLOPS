@@ -1,0 +1,22 @@
+artifact_path: /home/emsasyonel/MLOPS/mlruns/1/models/m-48a9a0ff9847427ba468c4deb43b0da6/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.3
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.core.Booster
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.10.1
+model_id: m-48a9a0ff9847427ba468c4deb43b0da6
+model_size_bytes: 2712785
+model_uuid: m-48a9a0ff9847427ba468c4deb43b0da6
+prompts: null
+run_id: 292234597e8043cfb1a0aae779dd72e5
+utc_time_created: '2026-03-22 14:47:44.721850'
